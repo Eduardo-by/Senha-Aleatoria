@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+
+:root {
+    --primary-color: rgb(158, 106, 106);
+    --primary-color-darker: rgb(22, 15, 15);
+}
+
+
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #1F2232;
+    font-family: 'Uchen', serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input,
+form label,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+
+}
+
+button {
+    border: none;
+    background: #1F2232;
+    color: #fff;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover {
+    background: var(--primary-color-darker);
+}
+
+button:active {
+    background: var(--primary-color-darker);
+}
+
+.senha-gerada {
+    width: 100%;
+    height: 100%;
+    margin-top: 9%;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 9%;
+    color: #1F2232;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+}
